@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f28ca56fc7994506a12e96b88a0dbd3, type: 3}
+  m_Name: Spline Movement
+  m_EditorClassIdentifier: 
+  color: {r: 0.9245283, g: 0.047970813, b: 0.047970813, a: 1}
+  transform:
+    position: {x: 6.24, y: 7.02, z: 0}
+    eulerAngles: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+  loop: 1
+  nodes:
+  - localPosition: {x: 0, y: 0, z: 0}
+    localRotation: {x: 0, y: 360, z: 0}
+    scale:
+      In: 48.605865
+      Out: 70.8
+    weight: 1
+    index: 0
+    distance: 163.5151
+    cpIn: {x: -0.0000084985195, y: 0, z: -48.605865}
+    cpOut: {x: 0.000012379066, y: 0, z: 70.8}
+  - localPosition: {x: 100, y: 0, z: 0}
+    localRotation: {x: -0, y: 180, z: 0}
+    scale:
+      In: 70.8
+      Out: 35.46247
+    weight: 1
+    index: 1
+    distance: 138.22784
+    cpIn: {x: 100.00001, y: 0, z: 70.8}
+    cpOut: {x: 100, y: 0, z: -35.46247}

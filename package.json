@@ -1,0 +1,23 @@
+{
+  "name": "com.hawksbill.library",
+  "displayName": "Hawksbill Library",
+  "version": "0.0.1-preview",
+  "unity": "2021.1",
+  "description": "Hawksbill Library",
+  "dependencies": {
+    "com.unity.mathematics": "1.2.1"
+  },
+  "keywords": [
+    "hawksbill",
+    "library",
+    "extension"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Hawksbill's Assets",
+    "email": "acakebread@massivehadron.com",
+    "url": "https://massivehadron.com/"
+  },
+  
+  "homepage": "https://api.massivehadron.com/"
+}

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4c2ffd109b0949518f228847d315272, type: 3}
+  m_Name: seantcooper-main
+  m_EditorClassIdentifier: 
+  invokeLogin: 0
+  project: seantcooper-main
+  key: AIzaSyAV1SW_cPCjBm0agf7eLHZa73MKF8eYOCc
+  username: admin@seantcooper.com
+  password: lowsecurepassword
+  token:
+    kind: identitytoolkit#VerifyPasswordResponse
+    localId: spIQY8bEtoZXIfPs8X0EvZPbnkh1
+    email: admin@seantcooper.com
+    displayName: 
+    idToken: eyJhbGciOiJSUzI1NiIsImtpZCI6ImQxMGM4ZjhiMGRjN2Y1NWUyYjM1NDFmMjllNWFjMzc0M2Y3N2NjZWUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vc2VhbnRjb29wZXItbWFpbiIsImF1ZCI6InNlYW50Y29vcGVyLW1haW4iLCJhdXRoX3RpbWUiOjE2MDM1NDcxNTksInVzZXJfaWQiOiJzcElRWThiRXRvWlhJZlBzOFgwRXZaUGJua2gxIiwic3ViIjoic3BJUVk4YkV0b1pYSWZQczhYMEV2WlBibmtoMSIsImlhdCI6MTYwMzU0NzE1OSwiZXhwIjoxNjAzNTUwNzU5LCJlbWFpbCI6ImFkbWluQHNlYW50Y29vcGVyLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJhZG1pbkBzZWFudGNvb3Blci5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.CFfmBwV-3wDy9iW8vbcYO6UHc5DuV5DkJlHpv-gX4DlNe9_5mbocJ0YnD9lO7txp66wz5u0LCUPv5xu2RNzW4vj_z_IAvJ3C2yz7sgD67iS4IQYZm9HoLAFZx63SyD3PgKhdhKxBIMiWW6P5LqCDekmIe7JryG0grBHjZExyZErazXl52aQGxLH7LT0oY3OEXVNU0CS1gP_-8kHhOdPOz-PxbdBCdmXP8MtMvz05B9ERr-x5MaLZIGopEn-zqg_vYtv6Xxcw4CJqQohU1f2ejhMOIne4eQDWFmWhemelpM5xBb8UGuxjr0bPfhWUlNUjORwbEHIGgczRCvKTVOE05Q
+    registered: true
+    refreshToken: AG8BCnfuJWvPjR_1ucP6ucaPycCAej5ryimGP3XXOohjEGrmnOP9jgsYPuM_Gm8C-DtwcdOGAQxPXZEWPvzGEI7c-v4nKWf1wDm2GbLFj4cqNQUHO9r3eHtPgFrkVxDMy88AQKnmianB9vdej4gXCMeCJiW_3y_7SL33Ku-KIARuZD6F7PiO6qdnGquUwHuuv0MDM_CTxEpOGgJQeFIriHtiBXOmQeGRwA
+    expiresIn: 3600
+    timeExpires: 25717559
+  output: "{\n  \"kind\": \"identitytoolkit#VerifyPasswordResponse\",\n  \"localId\":
+    \"spIQY8bEtoZXIfPs8X0EvZPbnkh1\",\n  \"email\": \"admin@seantcooper.com\",\n 
+    \"displayName\": \"\",\n  \"idToken\": \"eyJhbGciOiJSUzI1NiIsImtpZCI6ImQxMGM4ZjhiMGRjN2Y1NWUyYjM1NDFmMjllNWFjMzc0M2Y3N2NjZWUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vc2VhbnRjb29wZXItbWFpbiIsImF1ZCI6InNlYW50Y29vcGVyLW1haW4iLCJhdXRoX3RpbWUiOjE2MDM1NDcxNTksInVzZXJfaWQiOiJzcElRWThiRXRvWlhJZlBzOFgwRXZaUGJua2gxIiwic3ViIjoic3BJUVk4YkV0b1pYSWZQczhYMEV2WlBibmtoMSIsImlhdCI6MTYwMzU0NzE1OSwiZXhwIjoxNjAzNTUwNzU5LCJlbWFpbCI6ImFkbWluQHNlYW50Y29vcGVyLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJhZG1pbkBzZWFudGNvb3Blci5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.CFfmBwV-3wDy9iW8vbcYO6UHc5DuV5DkJlHpv-gX4DlNe9_5mbocJ0YnD9lO7txp66wz5u0LCUPv5xu2RNzW4vj_z_IAvJ3C2yz7sgD67iS4IQYZm9HoLAFZx63SyD3PgKhdhKxBIMiWW6P5LqCDekmIe7JryG0grBHjZExyZErazXl52aQGxLH7LT0oY3OEXVNU0CS1gP_-8kHhOdPOz-PxbdBCdmXP8MtMvz05B9ERr-x5MaLZIGopEn-zqg_vYtv6Xxcw4CJqQohU1f2ejhMOIne4eQDWFmWhemelpM5xBb8UGuxjr0bPfhWUlNUjORwbEHIGgczRCvKTVOE05Q\",\n 
+    \"registered\": true,\n  \"refreshToken\": \"AG8BCnfuJWvPjR_1ucP6ucaPycCAej5ryimGP3XXOohjEGrmnOP9jgsYPuM_Gm8C-DtwcdOGAQxPXZEWPvzGEI7c-v4nKWf1wDm2GbLFj4cqNQUHO9r3eHtPgFrkVxDMy88AQKnmianB9vdej4gXCMeCJiW_3y_7SL33Ku-KIARuZD6F7PiO6qdnGquUwHuuv0MDM_CTxEpOGgJQeFIriHtiBXOmQeGRwA\",\n 
+    \"expiresIn\": \"3600\"\n}\n"
